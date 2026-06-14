@@ -56,6 +56,20 @@ Install any required dependencies:
 pip install -r requirements.txt
 ```
 
+Run the automation script from the project root:
+
+```bash
+python generate_log.py
+```
+
+If your machine only provides Python 3 as `python3`, use:
+
+```bash
+python3 generate_log.py
+```
+
+The script writes a timestamped file named `log_YYYYMMDD.txt`.
+
 ## Tasks
 
 ### Task 1: Define the Problem
