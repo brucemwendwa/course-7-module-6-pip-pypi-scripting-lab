@@ -20,7 +20,10 @@ def generate_log(data):
 
 
 def fetch_data():
-    import requests
+    try:
+        import requests
+    except ImportError:
+        return {}
 
     try:
         response = requests.get(API_URL, timeout=10)

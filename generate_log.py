@@ -1,4 +1,4 @@
-from lib.generate_log import main
+from lib.generate_log import fetch_data, generate_log, main
 
 
 if __name__ == "__main__":
